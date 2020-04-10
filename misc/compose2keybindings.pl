@@ -3,7 +3,7 @@
 use warnings;
 use 5.010;
 
-our $composekey = 0xf710; # F13
+our $composekey = "^$\UF710"; # Ctrl+Shift+F13
 
 our %Keysyms;
 
